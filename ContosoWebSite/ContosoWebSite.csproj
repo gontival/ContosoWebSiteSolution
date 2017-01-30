@@ -106,11 +106,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="default.html" />
+    <Content Include="Images\contosologo.gif" />
+    <Content Include="Images\Human Resource.jpg" />
+    <Content Include="Images\Report.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
