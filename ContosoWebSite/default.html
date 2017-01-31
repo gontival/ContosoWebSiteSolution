@@ -6,18 +6,29 @@
 	<meta charset="utf-8" />
 </head>
 <body>
-    
-    <img src="Images/contosologo.gif"/>
-    <h1>Welcome to Contoso Ltd.</h1>
-    <ul>
-        <li><a href="ExpenseReports.html" target="iframeContent">Expense Reports</a></li>
-        <li><a href="HumanResources.html" target="iframeContent">Human Resources</a></li>
-        <li><a href="MainContent.html" target="_parent">Main content with _parent attribute</a></li>
-        <li><a href="MainContent.html" target="_self">Main content with _self attribute</a></li>
-        <li><a href="MainContent.html" target="_top">Main content with _top attribute</a></li>
-    </ul>
+    <header>
+        <img src="Images/contosologo.gif" />
+        <h1>Welcome to Contoso Ltd.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="ExpenseReports.html" target="iframeContent">Expense Reports</a></li>
+            <li><a href="HumanResources.html" target="iframeContent">Human Resources</a></li>
+            <li><a href="MainContent.html" target="_parent">Main content with _parent attribute</a></li>
+            <li><a href="MainContent.html" target="_self">Main content with _self attribute</a></li>
+            <li><a href="MainContent.html" target="_top">Main content with _top attribute</a></li>
+        </ul>
+    </nav>
     <br />
-    <!--Add <iframe> here-->
-    <iframe name="iframeContent" src="MainContent.html"></iframe>
+    <section>Section blablablabla</section>
+
+    <article>
+        <!--Add <iframe> here-->
+        <iframe name="iframeContent" src="MainContent.html"></iframe>
+    </article>
+
+    <aside>Side bar</aside>
+    <br />
+    <footer>Copyright &copy; Contosoltd.com</footer>
 </body>
 </html>
