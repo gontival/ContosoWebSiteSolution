@@ -3,13 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Contoso Ltd. Home Page</title>
-	<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">-->
 </head>
 <body>
     <header>
-        <img src="Images/contosologo.gif" />
+        <img src="Images/contosologo.gif" alt="Contoso logo" usemap="#logomap" />
+        <map name="logomap">
+            <area shape="rect" coords="0,0,68,71" href="HumanResources.html" alt="Human Resource page"/>
+            <area shape="rect" coords="69,0,135,71" href="ExpenseReports.html" alt="Expense Reports page" />
+        </map>
         <h1>Welcome to Contoso Ltd.</h1>
     </header>
     <nav>
