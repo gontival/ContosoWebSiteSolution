@@ -107,9 +107,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.html" />
+    <Content Include="ExpenseReports.html" />
+    <Content Include="HumanResources.html" />
     <Content Include="Images\contosologo.gif" />
     <Content Include="Images\Human Resource.jpg" />
     <Content Include="Images\Report.jpg" />
+    <Content Include="MainContent.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
